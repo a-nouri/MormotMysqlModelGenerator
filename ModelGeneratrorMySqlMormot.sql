@@ -1,4 +1,4 @@
-select t.table_name,concat('property ID: UInt64 read FID write FID;\r\n',
+select t.table_name,concat('published\r\n',
 group_concat(col order by ordinal_position separator ';\r\n'),';') table_create from (
 select a.table_name,a.ordinal_position,concat('property ',a.column_name,': ',
 if(a.data_type in ('varchar','enum','text','char','time','varbinary','tinytext','set','mediumtext'),
