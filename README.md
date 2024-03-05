@@ -1,7 +1,7 @@
 By executing this sql, you can generate mormot2 model class for mysql database tables.
 
 For example :
-<br> published
+<br> <br> published
   <br> property count_code: RawUtf8 index 5 read Fcount_code write Fcount_code;
   <br> property count_name: RawUtf8 index 40 read Fcount_name write Fcount_name;
   <br> property capital: TNullableUtf8Text index 20 read Fcapital write Fcapital;
