@@ -3,7 +3,7 @@ By executing this sql, you can generate mormot2 model class for mysql database t
 For example :
 
 published
-  <p>property count_code: RawUtf8 index 5 read Fcount_code write Fcount_code;</p>
+  <p>property count_code: RawUtf8 index 5 read Fcount_code write Fcount_code;
   <p>property count_name: RawUtf8 index 40 read Fcount_name write Fcount_name;</p>
   <p>property capital: TNullableUtf8Text index 20 read Fcapital write Fcapital;</p>
   <p>property curr_code: RawUtf8 index 5 read Fcurr_code write Fcurr_code;</p>
