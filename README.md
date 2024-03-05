@@ -8,7 +8,5 @@ For example :
   <br>&nbsp;&nbsp;&nbsp; property curr_code: RawUtf8 index 5 read Fcurr_code write Fcurr_code;
   <br>&nbsp;&nbsp;&nbsp; property tel_perfix: RawUtf8 index 10 read Ftel_perfix write Ftel_perfix;
   <br>&nbsp;&nbsp;&nbsp; property code_for_tax: TNullableUtf8Text index 2 read Fcode_for_tax write Fcode_for_tax;
-  <br>&nbsp;&nbsp;&nbsp; property buy_sale_code: TNullableUtf8Text index 10 read Fbuy_sale_code write Fbuy_sale_code;
-  <br>&nbsp;&nbsp;&nbsp; property new_tax_code: TNullableUtf8Text index 3 read Fnew_tax_code write Fnew_tax_code;
 <br>end;
 
